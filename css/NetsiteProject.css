@@ -1,19 +1,52 @@
 
-body, html {
-    height: 100%;
-    width: 100%;
-  }
-  
   .bg {
-    /* The image used */
-    background-image: url("P:/USERDATA/mypage/images/pallo.jpg");
-  
-    /* Full height */
-    height: 100%;
-    width: 100%;
-  
     /* Center and scale the image nicely */
-    background-position: center;
+    background: url("P:/NetsiteProject/NetsiteProject/images/Taustakuva2.jpg") no-repeat center center fixed;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover, cover;
+    background-attachment: fixed;
   }
+
+  body{
+    background: url("P:/NetsiteProject/NetsiteProject/images/Taustakuva2.jpg") no-repeat center center fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-attachment: fixed;
+  }
+
+  .flexContainer{
+      display: flex;
+  }
+
+.logo{
+    display: block;
+    width: auto;
+    height: auto;
+    max-height: 400px;
+    margin: 0 auto .875em;
+}
+
+.site-header{
+    position: relative;
+    z-index: 9999;
+    min-height: 1em;
+    margin: 2.625em auto;
+    padding: 0 1.75em;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.topnav-centered a{
+    float: none;
+    display: inline, center;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, -50%);
+}
+
+nav ul{
+    text-align: center;
+}
