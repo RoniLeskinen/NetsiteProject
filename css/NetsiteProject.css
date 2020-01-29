@@ -9,7 +9,7 @@
   }
 
   body{
-    background: url("P:/NetsiteProject/NetsiteProject/images/Taustakuva2.jpg") no-repeat center center fixed;
+    background: url("https://github.com/RoniLeskinen/NetsiteProject/blob/master/images/Taustakuva2.jpg?raw=true") no-repeat center center fixed;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover, cover;
