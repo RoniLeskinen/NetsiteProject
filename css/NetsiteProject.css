@@ -9,7 +9,7 @@
   }
 
   body{
-    background: url("C:/Users/Ronster1/Documents/GitHub/NetsiteProject/images/Taustakuva2.jpg") no-repeat center center fixed;
+    background: url("P:/NetsiteProject/NetsiteProject/images/Taustakuva2.jpg") no-repeat center center fixed;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover, cover;
@@ -85,9 +85,9 @@
 
 .footer{
   position: relative;
-  width: 100%;
-  left: 765px;
-  top: 100px;
+  align-items: left;
+  left: -765px;
+  bottom: 0;
 }
 
 /* Style all font awesome icons */
@@ -120,4 +120,9 @@
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.box{
+  float: left;
+  width: 200px;
 }
